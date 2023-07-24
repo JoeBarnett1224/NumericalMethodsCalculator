@@ -4,7 +4,7 @@ A calculator which implement various numerical methods and includes support for 
 ___
 ## About The Project
 
-Numerical methods, also referred to as numerical analysis, is a branch of mathematical analysis which studies methods of approximating solutions, and deriving error bounds, to problems which are either too difficult or even impossible to solve exactly. It has applications to many disciplines in STEM and business including, but not limited to computational physics, computational chemistry, engineering, conputational finance, and acturial science
+Numerical methods, also referred to as numerical analysis, is a branch of mathematical analysis which studies methods of approximating solutions, and deriving error bounds, to problems which are either too difficult or even impossible to solve exactly. It has applications to many disciplines in STEM and business including, but not limited to computational physics, computational chemistry, engineering, conputational finance, and acturial science.
 ___
 ## Installation
 
