@@ -1,10 +1,13 @@
 # NumericalMethodsCalculator
+
 A calculator which implement various numerical methods and includes support for many special functions
 ___
 ## About The Project
 
+Numerical methods, also referred to as numerical analysis, is a branch of mathematical analysis which studies methods of approximating solutions, and deriving error bounds, to problems which are either too difficult or even impossible to solve exactly. It has applications to many disciplines in STEM and business including, but not limited to computational physics, computational chemistry, engineering, conputational finance, and acturial science
 ___
 ## Installation
+
 This project runs in Jupyter Notebook. To use Jupyter Notebook it is necessary to download and install [Anaconda](https://www.anaconda.com/download). Once installed, Jupyter Notebook can be accessed through the Anaconda Navigator.
 
 To run the code, the following packages must be installed:
@@ -30,6 +33,7 @@ ___
 ## Future Work
 ___
 ## Acknowledgements
+
 I acknowledge the extensive use of the math and mpmath Python modules in this project and am grateful for the work done by the creators of these packages. Without these libraries this project would have been much harder.
 
 The book Numerical Analysis by Burden & Faires, 9th edition was used as a reference over the course of the project, and I thank the authos of this book which served as a valuable resource.
@@ -44,4 +48,5 @@ Note: To view this information in the app click the "Acknowledgements" button in
 
 ___
 ## Disclaimer
+
 This project was originally created by Joseph W Barnett. As long as credit is given to the original author, it can be altered and distributed for noncommercial use.
