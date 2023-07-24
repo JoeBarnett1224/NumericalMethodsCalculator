@@ -36,7 +36,7 @@ Furthermore, Wolfram MathWorld allow me to learn about the various special funct
 
 I thank the owner of the YouTube channel Clear Code. His tkinter tutorial helped me learn how to create user interfaces in Python. Including the one for this project.
 
-I thank Liu Zuo Lin for his [Medium article](https://medium.com/codex/another-python-question-that-took-me-days-to-solve-as-a-beginner-37b5e144ecc) on how to evaluate Python strings as mathematical expressing. This helped me avoid the use of the _eval_ and _exec_ functions, which have been shown to be insece
+I thank Liu Zuo Lin for his [Medium article](https://medium.com/codex/another-python-question-that-took-me-days-to-solve-as-a-beginner-37b5e144ecc) on how to evaluate Python strings as mathematical expressions. This helped me avoid the use of the _eval_ and _exec_ functions, which have been shown to be insecure
 
 Note: To view this information in the app click the "Acknowledgements" button in the lower right.
 
