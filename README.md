@@ -27,6 +27,8 @@ ___
 Note: To view this information in the app click the "Help" button in the lower left.
 
 ___
+## Future Work
+___
 ## Acknowledgements
 I acknowledge the extensive use of the math and mpmath Python modules in this project and am grateful for the work done by the creators of these packages. Without these libraries this project would have been much harder.
 
