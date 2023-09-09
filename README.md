@@ -31,7 +31,19 @@ ___
 
 #### Constants
 
-### Functions
+#### Functions
+
+### Numerical Algorithms
+
+#### Root Finder
+
+#### Interpolation Calculator
+
+#### Numerical Differentiator
+
+#### Numerical Integrator
+
+#### Numerical Solver
 
 Note: To view this information in the app click the "Help" button in the lower left.
 
