@@ -56,7 +56,7 @@ ___
 
 #### Interpolation Calculator
 
-##### Lagrange Interpolating Polynomial
+##### Lagrange Interpolating Polynomials
 
 ##### Neville's Method
 
