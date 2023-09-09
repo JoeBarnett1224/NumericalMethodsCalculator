@@ -100,6 +100,24 @@ ___
 
 #### Numerical Solver
 
+##### Euler's Method
+
+##### Midpoint Method
+
+##### Modified Euler Method
+
+##### Heun's Method
+
+##### Runge-Kutta Method
+
+##### Runge-Kutta-Fehlberg Method
+
+##### Adams-Bashforth Technique
+
+##### Milue's Method
+
+##### Extrapolation
+
 Note: To view this information in the app click the "Help" button in the lower left.
 
 ___
