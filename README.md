@@ -86,6 +86,18 @@ ___
 
 #### Numerical Integrator
 
+##### Midpoint Rule
+
+##### Trapezoid Rule
+
+##### Simpson's Rule
+
+##### Romberg Integration
+
+##### Adaptive Quadrature
+
+##### Gaussian Quadrature
+
 #### Numerical Solver
 
 Note: To view this information in the app click the "Help" button in the lower left.
