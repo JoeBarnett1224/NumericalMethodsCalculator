@@ -27,6 +27,12 @@ Where the brackets should be replaced with the package name. For example, to ins
 ___
 ## Instructions
 
+### Supported Constants and Functions
+
+#### Constants
+
+### Functions
+
 Note: To view this information in the app click the "Help" button in the lower left.
 
 ___
