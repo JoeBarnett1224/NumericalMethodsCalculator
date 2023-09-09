@@ -40,7 +40,7 @@ ___
 
 ##### Bisection Method
 
-##### Fined-Point Iteration
+##### Fixed-Point Iteration
 
 ##### Newton's Method
 
@@ -56,7 +56,33 @@ ___
 
 #### Interpolation Calculator
 
+##### Lagrange Interpolating Polynomial
+
+##### Neville's Method
+
+##### Newton's Divided Difference Method
+
+##### Hermite Interpolation
+
+##### Natural Cubic Spline
+
+##### Clamped Cubic Spline
+
 #### Numerical Differentiator
+
+##### Forward Difference
+
+##### Backward Difference
+
+##### Central Difference
+
+##### Three-Point Midpoint Formula
+
+##### Three-Point Endpoint Formula
+
+##### Five-Point Midpoint Formula
+
+##### Five-Point Endpoint Formula
 
 #### Numerical Integrator
 
