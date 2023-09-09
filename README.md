@@ -6,9 +6,9 @@ ___
 
 Numerical methods, also referred to as numerical analysis, is a branch of mathematical analysis which studies methods of approximating solutions, and deriving error bounds, to problems which are either too difficult or even impossible to solve exactly. It has applications to many disciplines in STEM and business including, but not limited to computational physics, computational chemistry, engineering, conputational finance, and acturial science.
 
-Much of mathematics is based on the idea of functions. This project implements support for many of the functions taught in grade school including polynomial, exponentials, logarithms, trigonometric, and hyperbolic functions. Also included is support for many of the special functions us in more specialized areas of mathematics including mathematical physics, probability, real analysis, complex analysis, amnalytic number theory, ordinary differential equations, and partial differential equations. The gama function, error function, and Bessel functions are just a few of the special function which are support
+Much of mathematics is based on the idea of functions. This project implements support for many of the functions taught in grade school including polynomials, exponentials, logarithms, trigonometric, and hyperbolic functions. Also included is support for many of the special functions used in more specialized areas of mathematics including mathematical physics, probability, real analysis, complex analysis, analytic number theory, ordinary differential equations, and partial differential equations. The gamma function, error function, and Bessel functions are just a few of the special functions which are supported.
 
-See
+See [Instructions](#Instructions) for more information regarding the functions and numerical algorithms that are implemented.
 ___
 ## Installation
 
