@@ -1,6 +1,6 @@
 # NumericalMethodsCalculator
 
-A calculator which implement various numerical methods and includes support for many special functions
+A calculator which implement various numerical methods and includes support for many special functions.
 ___
 ## About The Project
 
