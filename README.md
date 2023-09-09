@@ -11,10 +11,11 @@ ___
 This project runs in Jupyter Notebook. To use Jupyter Notebook it is necessary to download and install [Anaconda](https://www.anaconda.com/download). Once installed, Jupyter Notebook can be accessed through the Anaconda Navigator.
 
 To run the code, the following packages must be installed:
-- tkinter
-- ttk
 - math
 - mpmath
+- numpy
+- tkinter
+- ttk
 
 These packages can be installed by opening a new terminal in Jupyter Notebook and using the following command:
 
@@ -36,6 +37,22 @@ ___
 ### Numerical Algorithms
 
 #### Root Finder
+
+##### Bisection Method
+
+##### Fined-Point Iteration
+
+##### Newton's Method
+
+##### Secant Method
+
+##### Method of False Position
+
+##### Modified Newton's Method
+
+##### Steffensen's Method
+
+##### Muller's Method
 
 #### Interpolation Calculator
 
