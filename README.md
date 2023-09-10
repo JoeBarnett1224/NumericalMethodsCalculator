@@ -126,6 +126,12 @@ Note: To view this information in the app click the "Help" button in the lower l
 
 ___
 ## Future Work
+
+When I began writing the code to evaluate mathematical expression I did so with the intent of using the _eval_ function, but upon learning the _eval_ is insecure I decided to take a different approach. As a result some of the code I wrote previously is not necessary. A future update will clean up this code.
+
+The current version of this project displays the numerical solution, but has no way to visulize it. In future versions. I will add plots as part of the outputs for the various numerical techniques that have been implemented.
+
+This project implements various commonly used numerical, but there is much more that can be abbed including techniques of numerical linear algebra, numerical optimization and numerical partial differental equation. I eventually want to implement methods from all the areas of numerical analysis.
 ___
 ## Acknowledgements
 
@@ -133,7 +139,7 @@ I acknowledge the extensive use of the math and mpmath Python modules in this pr
 
 The book Numerical Analysis by Burden & Faires, 9th edition was used as a reference over the course of the project, and I thank the authos of this book which served as a valuable resource.
 
-Furthermore, Wolfram MathWorld allow me to learn about the various special functions I didn't know about prior to this project. I thank the creators of this website, for the material I referred to during this project. As well as serving as a great resource for nearly every area of mathematics
+Furthermore, Wolfram MathWorld allowed me to learn about the various special functions I didn't know about prior to this project. I thank the creators of this website, for the material I referred to during this project. As well as serving as a great resource for nearly every area of mathematics
 
 I thank the owner of the YouTube channel Clear Code. His tkinter tutorial helped me learn how to create user interfaces in Python. Including the one for this project.
 
