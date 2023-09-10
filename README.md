@@ -129,9 +129,13 @@ ___
 
 When I began writing the code to evaluate mathematical expressions I did so with the intention of using the _eval_ function, but upon learning that _eval_ is insecure I decided to take a different approach. As a result some of the code I wrote previously is not necessary. A future update will clean up this code.
 
-The current version of this project displays the numerical solution, but has no way to visualize the solution. In future versions I will add plots as part of the outputs for the various numerical techniques that have been implemented.
+The current version of this project displays the numerical solution, but has no way to visualize this solution. In future versions I will add plots as part of the outputs for the various numerical techniques that have been implemented.
 
 This project implements various commonly used numerical method, but there is much more that can be added including techniques of numerical linear algebra, numerical optimization and numerical partial differental equation. I eventually want to implement methods from all these areas of numerical analysis.
+
+Some of the algorithms can take a very long time to run depending on the inputs, as a result this can cause the program to crash. To mitigate this I will add a settings menu in a future update that will include the option to set the maximum number of iterations before the algorithm terminates.
+
+Some of the techniues implemented makes use of a base method prior to running the main method. For example, the current implementation of Romberg integration uses the trapezoid rule as a base method, before extrapolating to produce a refined approximation. Future versions will allow the user to chose which base methods the program uses.
 ___
 ## Acknowledgements
 
