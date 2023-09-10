@@ -141,13 +141,13 @@ ___
 
 I acknowledge the extensive use of the math and mpmath Python modules in this project and am grateful for the work done by the creators of these packages. Without these libraries this project would have been much harder.
 
-The book Numerical Analysis by Burden & Faires, 9th edition was used as a reference over the course of the project, and I thank the authos of this book which served as a valuable resource.
+The book Numerical Analysis by Burden & Faires, 9th edition was used as a reference over the course of the project, and I thank the authors of this book which served as a valuable resource.
 
-Furthermore, Wolfram MathWorld allowed me to learn about the various special functions I didn't know about prior to this project. I thank the creators of this website, for the material I referred to during this project. As well as serving as a great resource for nearly every area of mathematics
+Furthermore, Wolfram MathWorld allowed me to learn about the various special functions I did not know about prior to this project. I thank the creators of this website, for the material I referred to during this project. As well as serving as a great resource for nearly every area of mathematics.
 
 I thank the owner of the YouTube channel Clear Code. His tkinter tutorial helped me learn how to create user interfaces in Python. Including the one for this project.
 
-I thank Liu Zuo Lin for his [Medium article](https://medium.com/codex/another-python-question-that-took-me-days-to-solve-as-a-beginner-37b5e144ecc) on how to evaluate Python strings as mathematical expressions. This helped me avoid the use of the _eval_ and _exec_ functions, which have been shown to be insecure
+I thank Liu Zuo Lin for his [Medium article](https://medium.com/codex/another-python-question-that-took-me-days-to-solve-as-a-beginner-37b5e144ecc) on how to evaluate Python strings as mathematical expressions. This helped me avoid the use of the _eval_ and _exec_ functions, which have been shown to be insecure.
 
 Note: To view this information in the app click the "Acknowledgements" button in the lower right.
 
