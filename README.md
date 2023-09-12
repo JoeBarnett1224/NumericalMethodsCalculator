@@ -46,8 +46,8 @@ ___
 | Common Logarithm | logx | log(x) | math.log(x,10) |
 | General Logarithm | log<sub>a</sub>x | log(x,a) | math.log(x,a) |
 | Square Root | $\sqrt{x}$ | sqrt(x) | math.sqrt |
-| Cube Root | $\sqrt{3}{x}$ | cbrt(x) | mpmath.cbrt |
-| N-th Root | $\sqrt{n}{x}$ | root(x,n) | mpmath.root |
+| Cube Root | $\sqrt[3]{x}$ | cbrt(x) | mpmath.cbrt |
+| N-th Root | $\sqrt[n]{x}$ | root(x,n) | mpmath.root |
 
 ### Numerical Algorithms
 
