@@ -40,6 +40,7 @@ ___
 
 | Function | Notation | Implementation | Python Function |
 | --- | --- | --- | --- |
+| Absolute Value | | | m.fabs(x) |
 
 ### Numerical Algorithms
 
