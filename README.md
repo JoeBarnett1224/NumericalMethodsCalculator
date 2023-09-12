@@ -40,7 +40,7 @@ ___
 
 | Function | Notation | Implementation | Python Function |
 | --- | --- | --- | --- |
-| Absolute Value | &#124; x &#124; | &#124; x &#124; | m.fabs(x) |
+| Absolute Value | &#124; x &#124; | &#124; x &#124; | math.fabs(x) |
 | Exponential | e<sup>x</sup> | e^(x) | math.exp(x) |
 | Natural Logarith | lnx | ln(x) | math.log(x) |
 | Common Logarithm | logx | log(x) | math.log(x,10) |
