@@ -38,7 +38,7 @@ ___
 
 #### Functions
 
-| Function | Notation | implementation | Python Function |
+| Function | Notation | Implementation | Python Function |
 | --- | --- | --- | --- |
 
 ### Numerical Algorithms
