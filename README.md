@@ -38,6 +38,9 @@ ___
 
 #### Functions
 
+| Function | Notation | implementation | Python Function |
+| --- | --- | --- | --- |
+
 ### Numerical Algorithms
 
 #### Root Finder
