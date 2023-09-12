@@ -41,7 +41,10 @@ ___
 | Function | Notation | Implementation | Python Function |
 | --- | --- | --- | --- |
 | Absolute Value | &#124; x &#124; | &#124; x &#124; | m.fabs(x) |
-| Exponential | e<sup>x</sup> | e^(x) | m.exp |
+| Exponential | e<sup>x</sup> | e^(x) | math.exp(x) |
+| Natural Logarith | lnx | ln(x) | math.log(x) |
+| Common Logarithm | logx | log(x) | math.log(x,10) |
+| General Logarithm | log<sub>a</sub>x | log(x,a) | math.log(x,a) |
 
 ### Numerical Algorithms
 
