@@ -41,7 +41,7 @@ ___
 | Function | Notation | Implementation | Python Function |
 | --- | --- | --- | --- |
 | Absolute Value | &#124; x &#124; | &#124; x &#124; | m.fabs(x) |
-| Exponential | e^x^ | e^(x) | m.exp |
+| Exponential | e<sup>x</sup> | e^(x) | m.exp |
 
 ### Numerical Algorithms
 
