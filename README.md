@@ -38,16 +38,21 @@ ___
 
 #### Functions
 
-| Function | Notation | Implementation | Python Function |
+| Mathematical Function | Mathematical Notation | Implementation | Python Function |
 | --- | --- | --- | --- |
 | Absolute Value | &#124; x &#124; | &#124; x &#124; | math.fabs(x) |
 | Exponential | e<sup>x</sup> | e^(x) | math.exp(x) |
 | Natural Logarith | lnx | ln(x) | math.log(x) |
 | Common Logarithm | logx | log(x) | math.log(x,10) |
 | General Logarithm | log<sub>a</sub>x | log(x,a) | math.log(x,a) |
-| Square Root | $\sqrt{x}$ | sqrt(x) | math.sqrt |
-| Cube Root | $\sqrt[3]{x}$ | cbrt(x) | mpmath.cbrt |
-| N-th Root | $\sqrt[n]{x}$ | root(x,n) | mpmath.root |
+| Square Root | $\sqrt{x}$ | sqrt(x) | math.sqrt(x) |
+| Cube Root | $\sqrt[3]{x}$ | cbrt(x) | mpmath.cbrt(x) |
+| N-th Root | $\sqrt[n]{x}$ | root(x,n) | mpmath.root(x,n) |
+| Lambert W Function | W(x) | W(x) | mpmath.lambertw(x) |
+| Sine | sinx | sin(x) | math.sin(x) |
+| Inverse Sine | arcsinx | arcsin(x) | math.asin(x) |
+| Hyperbolic Sine | sinhx | sinh(x) | math.sinh(x) |
+| Inverse Hyperbolic Sine | arsinhx | arsinh(x) | math.asinh(x) |
 
 ### Numerical Algorithms
 
