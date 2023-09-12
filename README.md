@@ -45,6 +45,9 @@ ___
 | Natural Logarith | lnx | ln(x) | math.log(x) |
 | Common Logarithm | logx | log(x) | math.log(x,10) |
 | General Logarithm | log<sub>a</sub>x | log(x,a) | math.log(x,a) |
+| Square Root | | | math.sqrt |
+| Cube Root | | | mpmath.cbrt |
+| N-th Root | | | mpmath.root |
 
 ### Numerical Algorithms
 
