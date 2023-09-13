@@ -65,6 +65,14 @@ ___
 | Inverse Secant | arcsecx | arcsec(x) | mpmath.asec(x) |
 | Hyperbolic Secant | sechx | sech(x) | mpmath.sech(x) |
 | Inverse Hyperbolic Secant | arsechx | arsech(x) | mpmath.asech(x) |
+| Cosecant | cscx | csc(x) | mpmath.csc(x) |
+| Inverse Cosecant | arccscx | arccsc(x) | mpmath.acsc(x) |
+| Hyperbolic Cosecant | cschx | csch(x) | mpmath.csch(x) |
+| Inverse Hyperbolic Cosecant | arcschx | arcsch(x) | mpmath.acsch(x) |
+| Cotangent | cotx | cot(x) | mpmath.cot(x) |
+| Inverse Cotangent | arccotx | arccot(x) | mpmath.acot(x) |
+| Hyperbolic Cotangent | cothx | coth(x) | mpmath.coth(x) |
+| Inverse Hyperbolic Cotangent | arcothx | arcoth(x) | mpmath.acoth(x) |
 
 ### Numerical Algorithms
 
