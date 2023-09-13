@@ -78,19 +78,18 @@ ___
 | Digamma Function | &psi;(x) | psi(x) | mpmath.digamma(x) |
 | Polygamma Function | &psi;<sub>n</sub>(x) | psi(n,x) | mpmath.psi(n,x) |
 | Barnes G Function | G(x) | G(x) | mpmath.barnesg(x) |
-| Exponential Integral Function | Ei(x) | | mpmath.ei(x) |
-| Generalized Exponential Integral Function | E<sub>n</sub>(x) | | mpmath.expint(n,x) |
-| Logarithmic Integral Function | li(x) | | mpmath.li(x) |
-| Cosine Integral Function | Ci(x) | | mpmath.ci(x) |
-| Hyperbolic Cosine Integral Function | Chi(x) | | mpmath.chi(x) |
-| Sine Integral Function | Si(x) | | mpmath.si(x) |
-| Hyperbolic Sine Integral Function | Shi(x) | | mpmath.shi(x) |
-| Cosine Integral Function | Ci(x) | | mpmath.ci(x) |
-| Error Function | erf(x) | | math.erf(x) |
-| Complementary Error Function | erfc(x) | | math.erfc(x) |
-| Imaginary Error Function | erfi(x) | | mpmath.erfi(x) |
-| Fresnel Sine Integral Function | S(x) | | mpmath.fresnels(x) |
-| Fresnel Cosine Integral Function | C(x) | | mpmath.fresnelc(x) |
+| Exponential Integral Function | Ei(x) | Ei(x) | mpmath.ei(x) |
+| Generalized Exponential Integral Function | E<sub>n</sub>(x) | En(n,x) | mpmath.expint(n,x) |
+| Logarithmic Integral Function | li(x) | li(x) | mpmath.li(x) |
+| Cosine Integral Function | Ci(x) | Ci(x) | mpmath.ci(x) |
+| Hyperbolic Cosine Integral Function | Chi(x) | Chi(x) | mpmath.chi(x) |
+| Sine Integral Function | Si(x) | Si(x) | mpmath.si(x) |
+| Hyperbolic Sine Integral Function | Shi(x) | Shi(x) | mpmath.shi(x) |
+| Error Function | erf(x) | erf(x) | math.erf(x) |
+| Complementary Error Function | erfc(x) | erfc(x) | math.erfc(x) |
+| Imaginary Error Function | erfi(x) | erfi(x) | mpmath.erfi(x) |
+| Fresnel Sine Integral Function | S(x) | S(x) | mpmath.fresnels(x) |
+| Fresnel Cosine Integral Function | C(x) | C(x) | mpmath.fresnelc(x) |
 
 ### Numerical Algorithms
 
