@@ -73,6 +73,7 @@ ___
 | Inverse Cotangent | arccotx | arccot(x) | mpmath.acot(x) |
 | Hyperbolic Cotangent | cothx | coth(x) | mpmath.coth(x) |
 | Inverse Hyperbolic Cotangent | arcothx | arcoth(x) | mpmath.acoth(x) |
+| Gamma Function | &Gamma;(x) | Gamma(x) | math.gamma(x) |
 
 ### Numerical Algorithms
 
