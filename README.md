@@ -90,6 +90,10 @@ ___
 | Imaginary Error Function | erfi(x) | erfi(x) | mpmath.erfi(x) |
 | Fresnel Sine Integral Function | S(x) | S(x) | mpmath.fresnels(x) |
 | Fresnel Cosine Integral Function | C(x) | C(x) | mpmath.fresnelc(x) |
+| Bessel Function of the First Kind | J<sub>n</sub>(x) | | mpmath.besselj(n,x) |
+| Bessel Function of the Second Kind | Y<sub>n</sub>(x) | | mpmath.bessely(n,x) |
+| Modified Bessel Function of the First Kind | I<sub>n</sub>(x) | | mpmath.besseli(n,x) |
+| Modified Bessel Function of the Second Kind | K<sub>n</sub>(x) | | mpmath.besselk(n,x) |
 
 ### Numerical Algorithms
 
