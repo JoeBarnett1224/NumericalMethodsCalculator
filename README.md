@@ -77,6 +77,7 @@ ___
 | Generalized Incomplete Gamma Function | &Gamma;(x,a,b) | Gamma(x,a,b) | mpmath.gammainc(x,a,b) |
 | Digamma Function | &psi;(x) | psi(x) | mpmath.digamma(x) |
 | Polygamma Function | &psi;<sub>n</sub>(x) | psi(n,x) | mpmath.psi(n,x) |
+| Barnes G Function | G(x) | G(x) | mpmath.barnesg(x) |
 
 ### Numerical Algorithms
 
