@@ -53,6 +53,18 @@ ___
 | Inverse Sine | arcsinx | arcsin(x) | math.asin(x) |
 | Hyperbolic Sine | sinhx | sinh(x) | math.sinh(x) |
 | Inverse Hyperbolic Sine | arsinhx | arsinh(x) | math.asinh(x) |
+| Cosine | cosx | cos(x) | math.cos(x) |
+| Inverse Cosine | arccosx | arccos(x) | math.acos(x) |
+| Hyperbolic Cosine | coshx | cosh(x) | math.cosh(x) |
+| Inverse Hyperbolic Cosine | arcoshx | arcosh(x) | math.acosh(x) |
+| Tangent | tanx | tan(x) | math.tan(x) |
+| Inverse Tangent | arctanx | arctan(x) | math.atan(x) |
+| Hyperbolic Tangent | tanhx | tanh(x) | math.tanh(x) |
+| Inverse Hyperbolic Tangent | artanhx | artanh(x) | math.atanh(x) |
+| Secant | secx | sec(x) | mpmath.sec(x) |
+| Inverse Secant | arcsecx | arcsec(x) | mpmath.asec(x) |
+| Hyperbolic Secant | sechx | sech(x) | mpmath.sech(x) |
+| Inverse Hyperbolic Secant | arsechx | arsech(x) | mpmath.asech(x) |
 
 ### Numerical Algorithms
 
