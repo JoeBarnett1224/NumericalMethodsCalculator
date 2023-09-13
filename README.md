@@ -74,6 +74,7 @@ ___
 | Hyperbolic Cotangent | cothx | coth(x) | mpmath.coth(x) |
 | Inverse Hyperbolic Cotangent | arcothx | arcoth(x) | mpmath.acoth(x) |
 | Gamma Function | &Gamma;(x) | Gamma(x) | math.gamma(x) |
+| Generalized Incomplete Gamma Function | &Gamma;(x,a,b) | Gamma(x,a,b) | mpmath.gammainc(x,a,b) |
 
 ### Numerical Algorithms
 
