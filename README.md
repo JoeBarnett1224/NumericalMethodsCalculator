@@ -78,6 +78,13 @@ ___
 | Digamma Function | &psi;(x) | psi(x) | mpmath.digamma(x) |
 | Polygamma Function | &psi;<sub>n</sub>(x) | psi(n,x) | mpmath.psi(n,x) |
 | Barnes G Function | G(x) | G(x) | mpmath.barnesg(x) |
+| Exponential Integral Function | Ei(x) | | mpmath.ei(x) |
+| Generalized Exponential Integral Function | E<sub>n</sub>(x) | | mpmath.expint(n,x) |
+| Logarithmic Integral Function | li(x) | | mpmath.li(x) |
+| Cosine Integral Function | Ci(x) | | mpmath.ci(x) |
+| Hyperbolic Cosine Integral Function | Chi(x) | | mpmath.chi(x) |
+| Sine Integral Function | Si(x) | | mpmath.si(x) |
+| Hyperbolic Sine Integral Function | Shi(x) | | mpmath.shi(x) |
 
 ### Numerical Algorithms
 
