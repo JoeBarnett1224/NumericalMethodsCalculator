@@ -85,6 +85,12 @@ ___
 | Hyperbolic Cosine Integral Function | Chi(x) | | mpmath.chi(x) |
 | Sine Integral Function | Si(x) | | mpmath.si(x) |
 | Hyperbolic Sine Integral Function | Shi(x) | | mpmath.shi(x) |
+| Cosine Integral Function | Ci(x) | | mpmath.ci(x) |
+| Error Function | erf(x) | | math.erf(x) |
+| Complementary Error Function | erfc(x) | | math.erfc(x) |
+| Imaginary Error Function | erfi(x) | | mpmath.erfi(x) |
+| Fresnel Sine Integral Function | S(x) | | mpmath.fresnels(x) |
+| Fresnel Cosine Integral Function | C(x) | | mpmath.fresnelc(x) |
 
 ### Numerical Algorithms
 
