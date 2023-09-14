@@ -96,6 +96,8 @@ ___
 | Modified Bessel Function of the Second Kind | K<sub>n</sub>(x) | | mpmath.besselk(n,x) |
 | Struve Function | H<sub>n</sub>(x) | | mpmath.struveh(n,x) |
 | Modified Struve Function | L<sub>n</sub>(x) | | mpmath.struvel(n,x) |
+| Weber Function | E<sub>&nu;</sub>(x) | | mpmath.webere(&nu;,x)
+| Lommel Function | s<sub>&mu;,&nu;</sub>(x) | | mpmath.lommels1(&mu;,&nu;,x)
 
 ### Numerical Algorithms
 
