@@ -105,6 +105,7 @@ ___
 | Generalized Hypergeometric Function | <sub>p</sub>F<sub>q</sub>(a<sub>1</sub>,...,a<sub>p</sub>;b<sub>1</sub>,...,b<sub>q</sub>;x) | | mpmath.hyper([a<sub>1</sub>,...,a<sub>p</sub>],[b<sub>1</sub>,...,b<sub>q</sub>],x) |
 | Bilateral Hypergeometric Function | <sub>A</sub>H<sub>B</sub>(a<sub>1</sub>,...,a<sub>A</sub>;b<sub>1</sub>,...,b<sub>B</sub>;x) | | mpmath.hyper([a<sub>1</sub>,...,a<sub>A</sub>],[b<sub>1</sub>,...,b<sub>B</sub>],x) |
 | Dirichlet Eta Function | &eta;(x) | | mpmath.altzeta(x) |
+| Jacobi Theta Function | &theta;<sub>n</sub>(x,q) | | mpmath.jtheta(n,x,q) |
 
 ### Numerical Algorithms
 
