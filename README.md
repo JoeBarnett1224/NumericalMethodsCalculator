@@ -98,6 +98,10 @@ ___
 | Modified Struve Function | L<sub>n</sub>(x) | | mpmath.struvel(n,x) |
 | Weber Function | E<sub>&nu;</sub>(x) | | mpmath.webere(&nu;,x)
 | Lommel Function | s<sub>&mu;,&nu;</sub>(x) | | mpmath.lommels1(&mu;,&nu;,x)
+| Airy Ai Function | Ai(x) | | mpmath.airyai(x) |
+| Airy Bi Function | Bi(x) | | mpmath.airybi(x) |
+| Scorer Gi Function | Gi(x) | | mpmath.scorergi(x) |
+| Scorer Hi Function | Hi(x) | | mpmath.scorerhi(x) |
 
 ### Numerical Algorithms
 
