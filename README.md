@@ -102,14 +102,14 @@ ___
 | Airy Bi Function | Bi(x) | Bi(x) | mpmath.airybi(x) |
 | Scorer Gi Function | Gi(x) | Gi(x) | mpmath.scorergi(x) |
 | Scorer Hi Function | Hi(x) | Hi(x) | mpmath.scorerhi(x) |
-| Generalized Hypergeometric Function | <sub>p</sub>F<sub>q</sub>(a<sub>1</sub>,...,a<sub>p</sub>;b<sub>1</sub>,...,b<sub>q</sub>;x) | | mpmath.hyper([a<sub>1</sub>,...,a<sub>p</sub>],[b<sub>1</sub>,...,b<sub>q</sub>],x) |
-| Bilateral Hypergeometric Function | <sub>A</sub>H<sub>B</sub>(a<sub>1</sub>,...,a<sub>A</sub>;b<sub>1</sub>,...,b<sub>B</sub>;x) | | mpmath.hyper([a<sub>1</sub>,...,a<sub>A</sub>],[b<sub>1</sub>,...,b<sub>B</sub>],x) |
-| Dirichlet Eta Function | &eta;(x) | | mpmath.altzeta(x) |
-| Jacobi Theta Function | &theta;<sub>n</sub>(x,q) | | mpmath.jtheta(n,x,q) |
-| Riemann Zeta Function | &zeta;(x) | | mpmath.zeta(x) |
-| Hurwitz Zeta Function | &zeta;(x,a) | | mpmath.zeta(x,a) |
-| Lerch Transcendent Function | &Phi;(x,s,a) | | mpmath.lerchphi(x,s,a) |
-| Polylogarithm | Li<sub>s</sub>(x) | | mpmath.polylog(s,x) |
+| Generalized Hypergeometric Function | <sub>p</sub>F<sub>q</sub>(a<sub>1</sub>,...,a<sub>p</sub>;b<sub>1</sub>,...,b<sub>q</sub>;x) | pFq([a<sub>1</sub>,...,a<sub>p</sub>],[b<sub>1</sub>,...,b<sub>q</sub>],x) | mpmath.hyper([a<sub>1</sub>,...,a<sub>p</sub>],[b<sub>1</sub>,...,b<sub>q</sub>],x) |
+| Bilateral Hypergeometric Function | <sub>A</sub>H<sub>B</sub>(a<sub>1</sub>,...,a<sub>A</sub>;b<sub>1</sub>,...,b<sub>B</sub>;x) | AHB([a<sub>1</sub>,...,a<sub>A</sub>],[b<sub>1</sub>,...,b<sub>B</sub>],x) | mpmath.bihyper([a<sub>1</sub>,...,a<sub>A</sub>],[b<sub>1</sub>,...,b<sub>B</sub>],x) |
+| Dirichlet Eta Function | &eta;(x) | eta(x) | mpmath.altzeta(x) |
+| Jacobi Theta Function | &theta;<sub>n</sub>(x,q) | theta(n,x,q) | mpmath.jtheta(n,x,q) |
+| Riemann Zeta Function | &zeta;(x) | zeta(x) | mpmath.zeta(x) |
+| Hurwitz Zeta Function | &zeta;(x,a) | zeta(x,a) | mpmath.zeta(x,a) |
+| Lerch Transcendent Function | &Phi;(x,s,a) | Phi(x,s,a) | mpmath.lerchphi(x,s,a) |
+| Polylogarithm | Li<sub>s</sub>(x) | Li(s,x) | mpmath.polylog(s,x) |
 
 ### Numerical Algorithms
 
