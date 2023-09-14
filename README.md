@@ -103,6 +103,7 @@ ___
 | Scorer Gi Function | Gi(x) | Gi(x) | mpmath.scorergi(x) |
 | Scorer Hi Function | Hi(x) | Hi(x) | mpmath.scorerhi(x) |
 | Generalized Hypergeometric Function | <sub>p</sub>F<sub>q</sub>(a<sub>1</sub>,...,a<sub>p</sub>;b<sub>1</sub>,...,b<sub>q</sub>;x) | | mpmath.hyper([a<sub>1</sub>,...,a<sub>p</sub>],[b<sub>1</sub>,...,b<sub>q</sub>],x) |
+| Bilateral Hypergeometric Function | <sub>A</sub>H<sub>B</sub>(a<sub>1</sub>,...,a<sub>A</sub>;b<sub>1</sub>,...,b<sub>B</sub>;x) | | mpmath.hyper([a<sub>1</sub>,...,a<sub>A</sub>],[b<sub>1</sub>,...,b<sub>B</sub>],x) |
 
 ### Numerical Algorithms
 
