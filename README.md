@@ -108,6 +108,8 @@ ___
 | Jacobi Theta Function | &theta;<sub>n</sub>(x,q) | | mpmath.jtheta(n,x,q) |
 | Riemann Zeta Function | &zeta;(x) | | mpmath.zeta(x) |
 | Hurwitz Zeta Function | &zeta;(x,a) | | mpmath.zeta(x,a) |
+| Lerch Transcendent Function | &Phi;(x,s,a) | | mpmath.lerchphi(x,s,a) |
+| Polylogarithm | Li<sub>s</sub>(x) | | mpmath.polylog(s,x) |
 
 ### Numerical Algorithms
 
