@@ -94,8 +94,8 @@ ___
 | Bessel Function of the Second Kind | Y<sub>n</sub>(x) | | mpmath.bessely(n,x) |
 | Modified Bessel Function of the First Kind | I<sub>n</sub>(x) | | mpmath.besseli(n,x) |
 | Modified Bessel Function of the Second Kind | K<sub>n</sub>(x) | | mpmath.besselk(n,x) |
-| Struve Function | H<sub>n</sub> | | mpmath.struveh(n,x) |
-| Modified Struve Function | L<sub>n</sub> | | mpmath.struvel(n,x) |
+| Struve Function | H<sub>n</sub>(x) | | mpmath.struveh(n,x) |
+| Modified Struve Function | L<sub>n</sub>(x) | | mpmath.struvel(n,x) |
 
 ### Numerical Algorithms
 
