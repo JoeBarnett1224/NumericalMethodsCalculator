@@ -90,18 +90,18 @@ ___
 | Imaginary Error Function | erfi(x) | erfi(x) | mpmath.erfi(x) |
 | Fresnel Sine Integral Function | S(x) | S(x) | mpmath.fresnels(x) |
 | Fresnel Cosine Integral Function | C(x) | C(x) | mpmath.fresnelc(x) |
-| Bessel Function of the First Kind | J<sub>n</sub>(x) | | mpmath.besselj(n,x) |
-| Bessel Function of the Second Kind | Y<sub>n</sub>(x) | | mpmath.bessely(n,x) |
-| Modified Bessel Function of the First Kind | I<sub>n</sub>(x) | | mpmath.besseli(n,x) |
-| Modified Bessel Function of the Second Kind | K<sub>n</sub>(x) | | mpmath.besselk(n,x) |
-| Struve Function | H<sub>n</sub>(x) | | mpmath.struveh(n,x) |
-| Modified Struve Function | L<sub>n</sub>(x) | | mpmath.struvel(n,x) |
-| Weber Function | E<sub>&nu;</sub>(x) | | mpmath.webere(&nu;,x)
-| Lommel Function | s<sub>&mu;,&nu;</sub>(x) | | mpmath.lommels1(&mu;,&nu;,x)
-| Airy Ai Function | Ai(x) | | mpmath.airyai(x) |
-| Airy Bi Function | Bi(x) | | mpmath.airybi(x) |
-| Scorer Gi Function | Gi(x) | | mpmath.scorergi(x) |
-| Scorer Hi Function | Hi(x) | | mpmath.scorerhi(x) |
+| Bessel Function of the First Kind | J<sub>n</sub>(x) | J(n,x) | mpmath.besselj(n,x) |
+| Bessel Function of the Second Kind | Y<sub>n</sub>(x) | Y(n,x) | mpmath.bessely(n,x) |
+| Modified Bessel Function of the First Kind | I<sub>n</sub>(x) | I(n,x) | mpmath.besseli(n,x) |
+| Modified Bessel Function of the Second Kind | K<sub>n</sub>(x) | K(n,x) | mpmath.besselk(n,x) |
+| Struve Function | H<sub>n</sub>(x) | H(n,x) | mpmath.struveh(n,x) |
+| Modified Struve Function | L<sub>n</sub>(x) | L(n,x) | mpmath.struvel(n,x) |
+| Weber Function | E<sub>&nu;</sub>(x) | E(&nu;,x) | mpmath.webere(&nu;,x)
+| Lommel Function | s<sub>&mu;,&nu;</sub>(x) | s(&mu;,&nu;,x) | mpmath.lommels1(&mu;,&nu;,x)
+| Airy Ai Function | Ai(x) | Ai(x) | mpmath.airyai(x) |
+| Airy Bi Function | Bi(x) | Bi(x) | mpmath.airybi(x) |
+| Scorer Gi Function | Gi(x) | Gi(x) | mpmath.scorergi(x) |
+| Scorer Hi Function | Hi(x) | Hi(x) | mpmath.scorerhi(x) |
 
 ### Numerical Algorithms
 
