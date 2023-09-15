@@ -36,6 +36,16 @@ ___
 
 #### Constants
 
+| Mathematical Constant | Mathematical Notation | Implementation | Python Function |
+| --- | --- | --- | --- |
+| Pi | &pi; | | math.pi |
+| Euler's Number | e | | |
+| Golden Ratio | $phi; | | mpmath.phi |
+| Euler-Mascheroni Constant | &gamma; | | mpmath.euler |
+| Glaisher-kinkelin Constant | A | | mpmath.glaisher |
+| Catalan's Constant | G | | |
+| Infinity | | | math.inf |
+
 #### Functions
 
 | Mathematical Function | Mathematical Notation | Implementation | Python Function |
