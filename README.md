@@ -36,9 +36,9 @@ Below are instructions on how to use this app, including supported functions and
 
 ### Supported Constants and Functions
 
-Many of the numerical methods implented in this app require the user to input one or more functions, which are interpreted as Python strings.
+Many of the numerical methods implemented in this app require the user to input one or more functions, which are interpreted as Python strings.
 
-The suppoted mathematical operations are addition (+), subtraction (-), multiplication (*), division (/), and exponentiation (^). The app follows the order of operations taught in grade school.
+The supported mathematical operations are addition (+), subtraction (-), multiplication (*), division (/), and exponentiation (^). The app follows the order of operations taught in grade school.
 
 This app implements various mathematical constants and functions. See [Constants](#Constants) and [Functions](#Functions) to see which constants and functions are supported and how they are implemented. When using a mathematical function be sure to enclose the argument(s) in parenthesis. For example, use sin(x), not sinx.
 
