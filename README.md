@@ -44,7 +44,7 @@ ___
 | Euler-Mascheroni Constant | &gamma; | | mpmath.euler |
 | Glaisher-kinkelin Constant | A | | mpmath.glaisher |
 | Catalan's Constant | G | | |
-| Infinity | | | math.inf |
+| Infinity | $\infty$ | | math.inf |
 
 #### Functions
 
