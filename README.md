@@ -39,7 +39,7 @@ ___
 | Mathematical Constant | Mathematical Notation | Implementation | Python Function |
 | --- | --- | --- | --- |
 | Pi | &pi; | pi | math.pi |
-| Euler's Number | e | | |
+| Euler's Number | e | e^(1) | math.exp(1) |
 | Golden Ratio | &phi; | phi | mpmath.phi |
 | Euler-Mascheroni Constant | &gamma; | gamma | mpmath.euler |
 | Glaisher-kinkelin Constant | A | A | mpmath.glaisher |
