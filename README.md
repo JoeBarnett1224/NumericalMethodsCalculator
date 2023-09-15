@@ -43,7 +43,7 @@ ___
 | Golden Ratio | &phi; | phi | mpmath.phi |
 | Euler-Mascheroni Constant | &gamma; | gamma | mpmath.euler |
 | Glaisher-kinkelin Constant | A | A | mpmath.glaisher |
-| Catalan's Constant | G | | |
+| Catalan's Constant | G | (Phi(-1,2,1/2))/4 | (mpmath.lerchphi(-1,2,1/2))/4 |
 | Infinity | $\infty$ | infinity | math.inf |
 
 #### Functions
