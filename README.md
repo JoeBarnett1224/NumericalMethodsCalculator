@@ -131,6 +131,8 @@ This app implements various mathematical constants and functions. See [Constants
 
 ### Numerical Algorithms
 
+This app implements many of the most commonly used numerical methods. It includes a [root finder](#Root-Finder), an [interpolation calculator](#Interpolation-Calculator), a [numerical differentiator](#Numerical-Differentiator), a [numerical integrator](#Numerical-Integrator), and a [numerical solver](#Numerical-Solver). Below are instructions on how to use these tools.
+
 #### Root Finder
 
 ##### Bisection Method
