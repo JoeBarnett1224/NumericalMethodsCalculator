@@ -32,7 +32,7 @@ Where the brackets should be replaced with the package name. For example, to ins
 ___
 ## Instructions
 
-Below are instructions on how to use this app including supported functions and implemented numerical methods.
+Below are instructions on how to use this app, including supported functions and implemented numerical methods.
 
 ### Supported Constants and Functions
 
