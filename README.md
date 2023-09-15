@@ -40,7 +40,7 @@ ___
 | --- | --- | --- | --- |
 | Pi | &pi; | | math.pi |
 | Euler's Number | e | | |
-| Golden Ratio | $phi; | | mpmath.phi |
+| Golden Ratio | &phi; | | mpmath.phi |
 | Euler-Mascheroni Constant | &gamma; | | mpmath.euler |
 | Glaisher-kinkelin Constant | A | | mpmath.glaisher |
 | Catalan's Constant | G | | |
