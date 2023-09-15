@@ -38,13 +38,13 @@ ___
 
 | Mathematical Constant | Mathematical Notation | Implementation | Python Function |
 | --- | --- | --- | --- |
-| Pi | &pi; | | math.pi |
+| Pi | &pi; | pi | math.pi |
 | Euler's Number | e | | |
-| Golden Ratio | &phi; | | mpmath.phi |
-| Euler-Mascheroni Constant | &gamma; | | mpmath.euler |
-| Glaisher-kinkelin Constant | A | | mpmath.glaisher |
+| Golden Ratio | &phi; | phi | mpmath.phi |
+| Euler-Mascheroni Constant | &gamma; | gamma | mpmath.euler |
+| Glaisher-kinkelin Constant | A | A | mpmath.glaisher |
 | Catalan's Constant | G | | |
-| Infinity | $\infty$ | | math.inf |
+| Infinity | $\infty$ | infinity | math.inf |
 
 #### Functions
 
