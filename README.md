@@ -159,6 +159,10 @@ Iterative methods begin with one or more initial approximations. These data are 
 
 #### Interpolation Calculator
 
+Given any set of data there is going to be gaps in the data. As a result, there are often missing data points for which information must be determined.The process of estimating these missing data points based on given data is called interpolation. Included in the techniques of interpolation are polynomial interpolation and spline interpolation.
+
+Polynomial interpolation is based upon the idea that given n data points there is a unique polynomial of maximum degree n - 1 that agrees with these data. Polynomial interpolation determines this polynomial and evaluates it at the point(s) to be determined. Four method of polynomial interpolation implemented in this app include the use [Lagrange interpolating polynomials](#Lagrange-Interpolating-Polynomials), [Neville's method](#Nevilles-Method), [Newton's divided difference method](#Newtons-Divided-Difference-Method), and [Hermite Interpolation](#Hermite-Interpolation)
+
 ##### Lagrange Interpolating Polynomials
 
 ##### Neville's Method
