@@ -179,7 +179,9 @@ Given n data points, spline interpolation fits a polynomial to the data in each 
 
 #### Numerical Differentiator
 
-Differentiation, along with integration, is one of the two major operators taught in calculus. The chain rule, product rule, and quotient rule are among the techniques used to compute derivatives analytically. Due to the wide applicability of the techniques the set of elementary functions is closed under differentiation, that is every elementary function has an elementary derivative. Even though any derivative can be found analytically, the more complicated the function becomes the less practical it becomes to compute the derivative by hand. In this cases it is more practical to compute the derivative numerically. The finite difference methods, such as those included in this app, are the most common methods used to compute derivatives numerically.
+Differentiation, along with integration, is one of the two major operators taught in calculus. The chain rule, product rule, and quotient rule are among the techniques used to compute derivatives analytically. Due to the wide applicability of the techniques the set of elementary functions is closed under differentiation, that is every elementary function has an elementary derivative. Even though any derivative can be found analytically, the more complicated the function becomes the less practical it becomes to compute the derivative by hand. In these cases it is more practical to compute the derivative numerically. The finite difference methods, such as those included in this app, are the most common methods used to compute derivatives numerically.
+
+Finite difference methods use a given step size and the given function evaluated at one or more poinnts to approimate the derivative at a given point. The smaller the step size and the more points used in the evaluation, the more accurate the approximation. The definition of the derivative in terms of the difference quotient is used to derive the forward, backward, and central difference formulas. Higher order methods, including the three and five point formulas can be derived using Taylor series.
 
 ##### Forward Difference
 
