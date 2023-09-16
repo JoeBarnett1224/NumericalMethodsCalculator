@@ -135,6 +135,8 @@ This app implements many of the most commonly used numerical methods. It include
 
 #### Root Finder
 
+Root finding is the process of finding solutions, also called roots or zeros, of the equation f(x) = 0. A similar procedure is determining fixed points of a function, or values of x which satisfy the equation f(x) = x. Some equations, such as x<sup>2</sup> - 7x + 12 = 0, can be easily solved analytically. However, equations like tanx = x cannot be solved analytically. In these cases numerical techniques must be used to approximate a solution.
+
 ##### Bisection Method
 
 ##### Fixed-Point Iteration
