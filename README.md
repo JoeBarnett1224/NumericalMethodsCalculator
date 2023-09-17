@@ -205,6 +205,8 @@ The Newton-Cotes formulas break up the interval of integration into subintervals
 
 The combination of a Newton-Cotes fomula along with the technique of extrapolation is called Romberg integration. An advantage of this method is that it can be used to approximate an integral within a given tolerance. [Romberg integration](#Romberg-Integration) is implemented in this app.
 
+Quadrature is similar to the use of the Newton-Cotes formulas, but instead of using predetermined weights and having the user specify the number of subintervals, it chooses the grid spacing and the weights at each point such that the integral is approximated as accurately as possible. [Adaptive quadrature](#Adaptive-Quadrature) and [Gaussian quadrature](#Gaussian-Quadrature) are implemented in this app.
+
 ##### Midpoint Rule
 
 ##### Trapezoid Rule
