@@ -2,6 +2,7 @@
 
 A calculator which implements various numerical methods and includes support for many special functions.
 ___
+
 ## About The Project
 
 Numerical methods, also referred to as numerical analysis, is a branch of mathematical analysis which studies methods of approximating solutions, and deriving error bounds, to problems which are either too difficult or even impossible to solve exactly. It has applications to many disciplines in STEM and business including, but not limited to computational physics, computational chemistry, engineering, computational finance, and actuarial science.
@@ -10,6 +11,7 @@ Much of mathematics is based on the idea of functions. This project implements s
 
 See [Instructions](#Instructions) for more information regarding the functions and numerical algorithms that are implemented.
 ___
+
 ## Installation
 
 This project runs in Jupyter Notebook. To use Jupyter Notebook it is necessary to download and install [Anaconda](https://www.anaconda.com/download). Once installed, Jupyter Notebook can be accessed through the Anaconda Navigator.
@@ -30,6 +32,7 @@ Where the brackets should be replaced with the package name. For example, to ins
 ```pip install mpmath```
 
 ___
+
 ## Instructions
 
 Below are instructions on how to use this app, including supported functions and implemented numerical methods.
@@ -244,6 +247,7 @@ Differential equations are equations which contain one or more independent varia
 Note: To view this information in the app click the "Help" button in the lower left.
 
 ___
+
 ## Future Work
 
 When I began writing the code to evaluate mathematical expressions I did so with the intention of using the _eval_ function, but upon learning that _eval_ is insecure I decided to take a different approach. As a result, some of the code I wrote previously is not necessary. A future update will clean up this code.
@@ -256,6 +260,7 @@ Some of the algorithms can take a very long time to run depending on the inputs,
 
 Some of the techniques implemented make use of a base method prior to running the main method. For example, the current implementation of Romberg integration uses the trapezoid rule as a base method, before extrapolating to produce a refined approximation. Future versions will allow the user to choose which base methods the program uses.
 ___
+
 ## Acknowledgements
 
 I acknowledge the extensive use of the math and mpmath Python modules in this project and am grateful for the work done by the creators of these packages. Without these libraries this project would have been much harder.
@@ -271,6 +276,7 @@ I thank Liu Zuo Lin for his [Medium article](https://medium.com/codex/another-py
 Note: To view this information in the app click the "Acknowledgements" button in the lower right.
 
 ___
+
 ## Disclaimer
 
 This project was originally created by Joseph W Barnett. As long as credit is given to the original author, it can be altered and distributed for noncommercial use.
