@@ -203,6 +203,8 @@ Integration, along with differentiation, is one of the two major operators taugh
 
 The Newton-Cotes formulas break up the interval of integration into subintervals, and then uses polynomial interpolation and equally spaced points to approximate the area over each subinterval. It then sums up all these areas to get the total area. The more subintervals, the more accurate the approximation. The Newton-Cotes formulas implemented in this app include the [midpoint rule](#Midpoint-Rule), the [trapezoid rule](#Trapezoid-Rule), and [Simpson's rule](#Simpsons-Rule).
 
+The combination of a Newton-Cotes fomula along with the technique of extrapolation is called Romberg integration. An advantage of this method is that it can be used to approximate an integral within a given tolerance. [Romberg integration](#Romberg-Integration) is implemented in this app.
+
 ##### Midpoint Rule
 
 ##### Trapezoid Rule
