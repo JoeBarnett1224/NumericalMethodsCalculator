@@ -148,7 +148,7 @@ Iterative methods begin with one or more initial approximations. These data are 
 
 Inputs:
   
-- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
 - a (float): Left endpoint of interval. The function value at f(a) must have a different sign than at f(b).
 
@@ -171,7 +171,7 @@ Value Theorem are not met.
 
 Inputs:
   
-- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
 - a (float): Left endpoint of interval. The function value at f(a) must have a different sign than at f(b).
 
@@ -249,7 +249,7 @@ Quadrature is similar to the use of the Newton-Cotes formulas, but instead of us
 
 Inputs:
   
-- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
 - a (float): Left endpoint of the interval of integration.
 
@@ -267,7 +267,7 @@ Note: This algorithm uses the trapezoid rule as the base method.
 
 Inputs:
   
-- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
 - a (float): Left endpoint of the interval of integration.
 
