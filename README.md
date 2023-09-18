@@ -228,7 +228,7 @@ Differential equations are equations which contain one or more independent varia
 
 Linear multistep methods use a given step size to estimate the value of the solution to an ODE until it achieves an estimate for the solution at the desired point. At each step an estimate for the solution is obtained using the value of the function and the derivative at previous points. [Euler's method](#Eulers-Method), [Adams-Bashforth technique](#Adams-Bashforth-Technique), [Milue's method](#Milues-Method), and [extrapolation](#Extrapolation) are the linear multistep methods implemented in this app.
 
-Runge-Kutta methods are simil to the linear multistep method except the Rung-Kutta methods also use the values of the function and derivative at half step sizes to compute an estimate at each point. The Runge-Kutta methods implemented in this app are the [midpoint method](#Midpoint-Method), the [modified Euler method](#Modified-Euler-Method), [Heun's method](#Heuns-Method), the [Runge-Kutta Method](#Runge-Kutta-method), and the [Runge-Kutta-Fehlberg method](#Runge-Kutta-Fehlberg-Method).
+Runge-Kutta methods are similar to the linear multistep methods except the Rung-Kutta methods also use the values of the function and derivative at half step sizes to compute an estimate at each point. The Runge-Kutta methods implemented in this app are the [midpoint method](#Midpoint-Method), the [modified Euler method](#Modified-Euler-Method), [Heun's method](#Heuns-Method), the [Runge-Kutta Method](#Runge-Kutta-method), and the [Runge-Kutta-Fehlberg method](#Runge-Kutta-Fehlberg-Method).
 
 ##### Euler's Method
 
