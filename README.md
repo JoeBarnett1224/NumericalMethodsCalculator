@@ -169,6 +169,20 @@ Value Theorem are not met.
 
 ##### Method of False Position
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
+
+- a (float): Left endpoint of interval. The function value at f(a) must have a different sign than at f(b).
+
+- b (float): Right endpoint of interval. The function value at f(b) must have a different sign than at f(a).
+
+- Tolerance (float): Acceptable error for approximation.
+
+Output:
+
+- Approximate solution of f(x) = 0 and estimated error derived via the method of false position, or message that the conditions of the Intermediate Value Theorem are not met. 
+
 ##### Modified Newton's Method
 
 ##### Steffensen's Method
@@ -233,7 +247,39 @@ Quadrature is similar to the use of the Newton-Cotes formulas, but instead of us
 
 ##### Romberg Integration
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
+
+- a (float): Left endpoint of the interval of integration.
+
+- b (float): Right endpoint of the interval of integration.
+
+- Tolerance (float): Acceptable error for approximation.
+
+Output:
+
+- Approximate solution of the integral and estimated error derived via Romberg integration.
+
+Note: This algorithm uses the trapezoid rule as the base method.
+
 ##### Adaptive Quadrature
+
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
+
+- a (float): Left endpoint of the interval of integration.
+
+- b (float): Right endpoint of the interval of integration.
+
+- Tolerance (float): Acceptable error for approximation.
+
+Output:
+
+- Approximate solution of the integral and estimated error derived via adaptive quadrature.
+
+Note: This algorithm uses Simpson's rule as the base method.
 
 ##### Gaussian Quadrature
 
