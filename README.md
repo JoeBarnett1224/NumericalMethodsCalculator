@@ -163,6 +163,18 @@ Value Theorem are not met.
 
 ##### Fixed-Point Iteration
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x<sub>0</sub> (float): Initial approximation for fixed point.
+
+- Tolerance (float): Acceptable error for approximation.
+
+Output:
+
+- Approximate solution of f(x) = x and estimated error derived via fixed-point interation. 
+
 ##### Newton's Method
 
 ##### Secant Method
@@ -186,6 +198,18 @@ Output:
 ##### Modified Newton's Method
 
 ##### Steffensen's Method
+
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x<sub>0</sub> (float): Initial approximation for fixed point.
+
+- Tolerance (float): Acceptable error for approximation.
+
+Output:
+
+- Approximate solution of f(x) = x and estimated error derived via Steffensen's Method. 
 
 ##### Muller's Method
 
