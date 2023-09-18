@@ -225,6 +225,22 @@ Output:
 
 ##### Modified Newton's Method
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- Derivative (string): First derivative of given function with respect to x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- Second Derivative (string): Second derivative of given function with respect to x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x<sub>0</sub> (float): Initial approximation for root.
+
+- Tolerance (float): Acceptable error for approximation.
+
+Output:
+
+- Approximate solution of f(x) = 0 and estimated error derived via modified Newton's method.
+
 ##### Steffensen's Method
 
 Inputs:
