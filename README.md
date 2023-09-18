@@ -148,18 +148,18 @@ Iterative methods begin with one or more initial approximations. These data are 
 
 Inputs:
   
-    Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functiong).
 
-    a (float): Left endpoint of interval. The function value at f(a) must have a different sign than at f(b).
+- a (float): Left endpoint of interval. The function value at f(a) must have a different sign than at f(b).
 
-    b (float): Right endpoint of interval. The function value at f(b) must have a different sign than at f(a).
+- b (float): Right endpoint of interval. The function value at f(b) must have a different sign than at f(a).
 
-    Tolerance (float): Acceptable error for approximation.
+- Tolerance (float): Acceptable error for approximation.
 
 Output:
 
-    Approximate solution of f(x) = 0 and estimated error derived via the bisection method, or message that the conditions of the Intermediate 
-    Value Theorem are not met. 
+- Approximate solution of f(x) = 0 and estimated error derived via the bisection method, or message that the conditions of the Intermediate 
+Value Theorem are not met. 
 
 ##### Fixed-Point Iteration
 
