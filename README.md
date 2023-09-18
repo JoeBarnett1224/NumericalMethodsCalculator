@@ -193,6 +193,20 @@ Output:
 
 ##### Secant Method
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x<sub>0</sub> (float): First initial approximation for root.
+
+- x<sub>1</sub> (float): Second initial approximation for root.
+
+- Tolerance (float): Acceptable error for approximation.
+
+Output:
+
+- Approximate solution of f(x) = 0 and estimated error derived via the secant method.
+
 ##### Method of False Position
 
 Inputs:
