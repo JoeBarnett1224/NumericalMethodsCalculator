@@ -289,9 +289,9 @@ Inputs:
   
 - Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): Left endpoint of the interval of integration.
+- a (float): Lower limit of integration.
 
-- b (float): Right endpoint of the interval of integration.
+- b (float): Upper limit of integration.
 
 - Tolerance (float): Acceptable error for approximation.
 
@@ -307,9 +307,9 @@ Inputs:
   
 - Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): Left endpoint of the interval of integration.
+- a (float): Lower limit of integration.
 
-- b (float): Right endpoint of the interval of integration.
+- b (float): Upper limit of integration.
 
 - Tolerance (float): Acceptable error for approximation.
 
