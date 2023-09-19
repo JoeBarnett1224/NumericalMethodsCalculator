@@ -571,6 +571,18 @@ Note: This algorithm uses Simpson's rule as the base method.
 
 ##### Gaussian Quadrature
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- n (integer): Number of weights/nodes. The larger n is, the better the approximation.
+
+Output:
+
+- Approximate solution of the integral derived via Gaussian quadrature.
+
+Note: Interval of integration is from -1 to 1.
+
 #### Numerical Solver
 
 Differential equations are equations which contain one or more independent variables, a function and one or more of its derivatives. An ordinary differential equation (ODE) contains only ordinary derivatives, whereas a partial differential equation (PDE) contains partial derivatives. The order of a differential equation is the order of its highest order derivative. Analytical solution techniques for solving first order ODEs include direct integration, integrating factors, separation of variables, potential functions, and substitution. However, these techniques can only be applied in very specific cases. In the vast majority of cases, one must resort to the use of numerical methods to approximate solutions to ODEs. This app implements various techniques for approximating solutions of first order ODEs including linear multistep methods and Runge-Kutta methods.
