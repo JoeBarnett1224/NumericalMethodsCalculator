@@ -389,19 +389,91 @@ Inputs:
 
 Output:
 
-- Approximate value of the first and second derivatives at x derived via the forward difference method.
+- The approximate values of the first and second derivatives at x derived via the forward difference method.
 
 ##### Backward Difference
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x (float): Point where the derivative is approximated.
+
+- h (float): Step size. The smaller the step size, the more accurate the approximation will be.
+
+Output:
+
+- The approximate values of the first and second derivatives at x derived via the backward difference method.
+
 ##### Central Difference
+
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x (float): Point where the derivative is approximated.
+
+- h (float): Step size. The smaller the step size, the more accurate the approximation will be.
+
+Output:
+
+- The approximate values of the first and second derivatives at x derived via the central difference method.
 
 ##### Three-Point Midpoint Formula
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x (float): Point where the derivative is approximated.
+
+- h (float): Step size. The smaller the step size, the more accurate the approximation will be.
+
+Output:
+
+- The approximate values of the first and second derivatives at x derived via the three-point midpoint formula.
+
 ##### Three-Point Endpoint Formula
+
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x (float): Point where the derivative is approximated.
+
+- h (float): Step size. The smaller the step size, the more accurate the approximation will be.
+
+Output:
+
+- The approximate values of the first and second derivatives at x derived via the three-point endpoint formula.
 
 ##### Five-Point Midpoint Formula
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x (float): Point where the derivative is approximated.
+
+- h (float): Step size. The smaller the step size, the more accurate the approximation will be.
+
+Output:
+
+- The approximate values of the first and second derivatives at x derived via the five-point midpoint formula.
+
 ##### Five-Point Endpoint Formula
+
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x (float): Point where the derivative is approximated.
+
+- h (float): Step size. The smaller the step size, the more accurate the approximation will be.
+
+Output:
+
+- The approximated value of the first derivative at x derived via the five-point endpoint formula.
 
 #### Numerical Integrator
 
