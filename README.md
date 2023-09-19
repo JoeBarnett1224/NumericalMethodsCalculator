@@ -293,7 +293,7 @@ Inputs:
 
 Output:
 
-- Estimated y-coordinate at interpolation point derived via Lagrange interpolating polynomial.
+- Estimated value of y-coordinate at interpolation point derived via Lagrange interpolating polynomial.
 
 ##### Neville's Method
 
