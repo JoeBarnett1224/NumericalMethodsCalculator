@@ -597,7 +597,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
@@ -615,7 +615,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
@@ -633,7 +633,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
@@ -651,7 +651,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
@@ -669,7 +669,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
@@ -687,7 +687,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
@@ -709,7 +709,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
@@ -729,7 +729,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
@@ -749,7 +749,7 @@ Inputs:
   
 - Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
 
-- a (float): The x-value where the initial condition is specified
+- a (float): The x-value where the initial condition is specified.
 
 - b (float): The x-value where the solution of the ODE is approximated.
 
