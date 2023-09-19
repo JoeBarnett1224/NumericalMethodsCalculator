@@ -683,6 +683,26 @@ Output:
 
 ##### Runge-Kutta-Fehlberg Method
 
+Inputs:
+  
+- Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- a (float): The x-value where the initial condition is specified
+
+- b (float): The x-value where the solution of the ODE is approximated.
+
+- h<sub>min</sub> (float): Minimum step size.
+
+- h<sub>max</sub> (float): Maximum step size. The smaller the maximum step size, the more accurate the approximation will be.
+
+- y(a) (float): Value of function where the initial condition is specified.
+
+- Tolerance (float): Acceptable error for approximation at each step.
+
+Output:
+
+- Approximate solution of the ODE at x = b derived via the Runge-Kutta-Fehlberg method, or message that the minimum step size is too large.
+
 ##### Adams-Bashforth Technique
 
 Inputs:
