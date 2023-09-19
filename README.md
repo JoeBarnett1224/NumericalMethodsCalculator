@@ -325,6 +325,20 @@ Output:
 
 ##### Hermite Interpolation
 
+Inputs:
+
+- x-values (string): x-coordinates of data set entered as floats separated by commas.
+
+- y-values (string): y-coordinates of data set entered as floats separated by commas.
+
+- y'-values (string): Derivative values at the x-coordinates of data set entered as floats separated by commas.
+
+- x (float): Interpolation point.
+
+Output:
+
+- Estimated value of y-coordinate at interpolation point derived via Hermite interpolation.
+
 ##### Natural Cubic Spline
 
 Inputs:
