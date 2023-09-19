@@ -599,7 +599,7 @@ Inputs:
 
 - a (float): The x-value where the initial condition is specified
 
-- b (float): The x-value where the ODE is approximated.
+- b (float): The x-value where the solution of the ODE is approximated.
 
 - y(a) (float): Value of function where the initial condition is specified.
 
