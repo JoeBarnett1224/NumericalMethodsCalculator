@@ -745,6 +745,28 @@ Note: This algorithm uses the Runge-Kutta method as the base method.
 
 ##### Extrapolation
 
+Inputs:
+  
+- Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- a (float): The x-value where the initial condition is specified
+
+- b (float): The x-value where the solution of the ODE is approximated.
+
+- h<sub>min</sub> (float): Minimum step size.
+
+- h<sub>max</sub> (float): Maximum step size. The smaller the maximum step size, the more accurate the approximation will be.
+
+- y(a) (float): Value of function where the initial condition is specified.
+
+- Tolerance (float): Acceptable error for approximation at each step.
+
+Output:
+
+- Approximate solution of the ODE at x = b derived via extrapolation, or message that the minimum step size is too large.
+
+Note: This algorithm uses the two-point midpoint method as the base method. Euler's method is used as the base method for the two-point midpoint method
+
 Note: To view this information in the app click the "Help" button in the lower left.
 
 ___
@@ -757,7 +779,7 @@ The current version of this project displays the numerical solution, but has no 
 
 This project implements various commonly used numerical methods, but there is much more that can be added including techniques of numerical linear algebra, numerical optimization and numerical partial differential equation. I eventually want to implement methods from all these areas of numerical analysis.
 
-Some of the algorithms can take a very long time to run depending on the inputs, as a result this can cause the program to crash. To mitigate this, I will add a settings menu in a future update that will include the option to set the maximum number of iterations before the algorithm terminates.
+Some of the algorithms can take a very long time to run depending on the inputs, as a result this can cause the program to crash. To mitigate this, I will add a settings menu in a future update that will include the option to set the maximum number of iterations before the algorithm terminates. Another option I would like to add to this settings menu is an option to set the precision of the calculations and outputs.
 
 Some of the techniques implemented make use of a base method prior to running the main method. For example, the current implementation of Romberg integration uses the trapezoid rule as a base method, before extrapolating to produce a refined approximation. Future versions will allow the user to choose which base methods the program uses.
 ___
