@@ -487,9 +487,51 @@ Quadrature is similar to the use of the Newton-Cotes formulas, but instead of us
 
 ##### Midpoint Rule
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- a (float): Lower limit of integration.
+
+- b (float): Upper limit of integration.
+
+- n (integer): Number of subintervals. The larger n is, the better the approximation.
+
+Output:
+
+- Approximate solution of the integral derived via the midpoint rule.
+
 ##### Trapezoid Rule
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- a (float): Lower limit of integration.
+
+- b (float): Upper limit of integration.
+
+- n (integer): Number of subintervals. The larger n is, the better the approximation.
+
+Output:
+
+- Approximate solution of the integral derived via the trapezoid rule.
+
 ##### Simpson's Rule
+
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- a (float): Lower limit of integration.
+
+- b (float): Upper limit of integration.
+
+- n (integer): Number of subintervals. The larger n is, the better the approximation. The value of n must be even.
+
+Output:
+
+- Approximate solution of the integral derived via Simpson's rule.
 
 ##### Romberg Integration
 
