@@ -379,6 +379,18 @@ Finite difference methods use a given step size and the given function evaluated
 
 ##### Forward Difference
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x (float): Point where the derivative is approximated.
+
+- h (float): Step size. The smaller the step size, the more accurate the approximation will be.
+
+Output:
+
+- Approximate value of the first and second derivatives at x derived via the forward difference method.
+
 ##### Backward Difference
 
 ##### Central Difference
