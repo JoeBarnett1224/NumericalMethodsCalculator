@@ -283,6 +283,18 @@ Given n data points, spline interpolation fits a polynomial to the data in each 
 
 ##### Lagrange Interpolating Polynomials
 
+Inputs:
+
+- x-values (string): x-coordinates of data set entered as floats separated by commas.
+
+- y-values (string): y-coordinates of data set entered as floats separated by commas.
+
+- x (float): Interpolation point.
+
+Output:
+
+- Estimated y-coordinate at interpolation point derived via Lagrange interpolating polynomial.
+
 ##### Neville's Method
 
 ##### Newton's Divided Difference Method
