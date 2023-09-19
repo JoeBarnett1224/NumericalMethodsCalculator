@@ -593,6 +593,22 @@ Runge-Kutta methods are similar to the linear multistep methods except the Rung-
 
 ##### Euler's Method
 
+Inputs:
+  
+- Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- a (float): The x-value where the initial condition is specified
+
+- b (float): The x-value where the ODE is approximated.
+
+- y(a) (float): Value of function where the initial condition is specified.
+
+- N (integer): Number of steps. The larger n is, the better the approximation.
+
+Output:
+
+- Approximate solution of the ODE at x = b derived via Euler's method.
+
 ##### Midpoint Method
 
 ##### Modified Euler Method
