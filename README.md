@@ -257,6 +257,22 @@ Output:
 
 ##### Muller's Method
 
+Inputs:
+  
+- Function (string): Function with independent variable x. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
+
+- x<sub>0</sub> (float): First initial approximation for root.
+
+- x<sub>1</sub> (float): Second initial approximation for root.
+
+- x<sub>2</sub> (float): Third initial approximation for root.
+
+- Tolerance (float): Acceptable error for approximation.
+
+Output:
+
+- Approximate solution of f(x) = 0 and estimated error derived via Muller's method.
+
 #### Interpolation Calculator
 
 Given any set of data there will be gaps in the data. As a result, there are often missing data points for which information needs to be determined. The process of estimating these missing data points based on given data is called interpolation. Included in the techniques of interpolation are polynomial interpolation and spline interpolation.
