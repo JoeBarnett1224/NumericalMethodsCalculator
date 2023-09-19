@@ -297,11 +297,47 @@ Output:
 
 ##### Neville's Method
 
+Inputs:
+
+- x-values (string): x-coordinates of data set entered as floats separated by commas.
+
+- y-values (string): y-coordinates of data set entered as floats separated by commas.
+
+- x (float): Interpolation point.
+
+Output:
+
+- Estimated value of y-coordinate at interpolation point derived via Neville's method.
+
 ##### Newton's Divided Difference Method
+
+Inputs:
+
+- x-values (string): x-coordinates of data set entered as floats separated by commas.
+
+- y-values (string): y-coordinates of data set entered as floats separated by commas.
+
+- x (float): Interpolation point.
+
+Output:
+
+- Estimated value of y-coordinate at interpolation point derived via Newton's divided difference method.
 
 ##### Hermite Interpolation
 
 ##### Natural Cubic Spline
+
+Inputs:
+
+- x-values (string): x-coordinates of data set entered as floats separated by commas.
+
+- y-values (string): y-coordinates of data set entered as floats separated by commas.
+
+- x (float): Interpolation point.
+
+Output:
+
+- Estimated value of y-coordinate at interpolation point derived via natural cubic spline.
 
 ##### Clamped Cubic Spline
 
