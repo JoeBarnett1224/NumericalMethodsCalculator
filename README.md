@@ -355,6 +355,22 @@ Output:
 
 ##### Clamped Cubic Spline
 
+Inputs:
+
+- x-values (string): x-coordinates of data set entered as floats separated by commas.
+
+- y-values (string): y-coordinates of data set entered as floats separated by commas.
+
+- f'(a) (float): Value of first derivative at the minimum x-value.
+
+- f'(b) (float): Value of first derivative at the maximum x-value.
+
+- x (float): Interpolation point.
+
+Output:
+
+- Estimated value of y-coordinate at interpolation point derived via clamped cubic spline.
+
 #### Numerical Differentiator
 
 Differentiation, along with integration, is one of the two major operators taught in calculus. The chain rule, product rule, and quotient rule are among the techniques used to compute derivatives analytically. Due to the wide applicability of the techniques the set of elementary functions is closed under differentiation, that is every elementary function has an elementary derivative. Even though any derivative can be found analytically, the more complicated the function becomes the less practical it becomes to compute the derivative by hand. In these cases, it is more practical to compute the derivative numerically. The finite difference methods, such as those included in this app, are the most common methods used to compute derivatives numerically.
