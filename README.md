@@ -12,6 +12,10 @@ Much of mathematics is based on the idea of functions. This project implements s
 See [Instructions](#Instructions) for more information regarding the functions and numerical algorithms that are implemented.
 ___
 
+## Version History
+__NumericalMethodsCalculator2__: This version features various code improvements including conversion from a function-based approach to a class-based approach. A couple of minor bugs were fixed.
+___
+
 ## Installation
 
 This project runs in Jupyter Notebook. To use Jupyter Notebook it is necessary to download and install [Anaconda](https://www.anaconda.com/download). Once installed, Jupyter Notebook can be accessed through the Anaconda Navigator.
@@ -587,9 +591,9 @@ Note: Interval of integration is from -1 to 1.
 
 Differential equations are equations which contain one or more independent variables, a function and one or more of its derivatives. An ordinary differential equation (ODE) contains only ordinary derivatives, whereas a partial differential equation (PDE) contains partial derivatives. The order of a differential equation is the order of its highest order derivative. Analytical solution techniques for solving first order ODEs include direct integration, integrating factors, separation of variables, potential functions, and substitution. However, these techniques can only be applied in very specific cases. In the vast majority of cases, one must resort to the use of numerical methods to approximate solutions to ODEs. This app implements various techniques for approximating solutions of first order ODEs including linear multistep methods and Runge-Kutta methods.
 
-Linear multistep methods use a given step size to estimate the value of the solution to an ODE until it achieves an estimate for the solution at the desired point. At each step, an estimate for the solution is obtained using the value of the function and the derivative at previous points. [Euler's method](#Eulers-Method), the [Adams-Bashforth technique](#Adams-Bashforth-Technique), [Milue's method](#Milues-Method), and [extrapolation](#Extrapolation) are the linear multistep methods implemented in this app.
+Linear multistep methods use a given step size to estimate the value of the solution to an ODE until it achieves an estimate for the solution at the desired point. At each step, an estimate for the solution is obtained using the value of the function and the derivative at previous points. [Euler's method](#Eulers-Method), the [Adams-Bashforth technique](#Adams-Bashforth-Technique), and [Milue's method](#Milues-Method) are the linear multistep methods implemented in this app.
 
-Runge-Kutta methods are similar to the linear multistep methods except the Rung-Kutta methods also use the values of the function and derivative at half step sizes to compute an estimate at each point. The Runge-Kutta methods implemented in this app are the [midpoint method](#Midpoint-Method), the [modified Euler method](#Modified-Euler-Method), [Heun's method](#Heuns-Method), the [Runge-Kutta Method](#Runge-Kutta-method), and the [Runge-Kutta-Fehlberg method](#Runge-Kutta-Fehlberg-Method).
+Runge-Kutta methods are similar to the linear multistep methods except the Rung-Kutta methods also use the values of the function and derivative at half step sizes to compute an estimate at each point. The Runge-Kutta methods implemented in this app are the [midpoint method](#Midpoint-Method), the [modified Euler method](#Modified-Euler-Method), [Heun's method](#Heuns-Method), and the [Runge-Kutta Method](#Runge-Kutta-method),.
 
 ##### Euler's Method
 
@@ -681,28 +685,6 @@ Output:
 
 - Approximate solution of the ODE at x = b derived via the Runge-Kutta method.
 
-##### Runge-Kutta-Fehlberg Method
-
-Inputs:
-  
-- Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
-
-- a (float): The x-value where the initial condition is specified.
-
-- b (float): The x-value where the solution of the ODE is approximated.
-
-- h<sub>min</sub> (float): Minimum step size.
-
-- h<sub>max</sub> (float): Maximum step size. The smaller the maximum step size, the more accurate the approximation will be.
-
-- y(a) (float): Value of function where the initial condition is specified.
-
-- Tolerance (float): Acceptable error for approximation at each step.
-
-Output:
-
-- Approximate solution of the ODE at x = b derived via the Runge-Kutta-Fehlberg method, or message that the minimum step size is too large.
-
 ##### Adams-Bashforth Technique
 
 Inputs:
@@ -740,32 +722,6 @@ Inputs:
 Output:
 
 - Approximate solution of the ODE at x = b derived via Milue's method.
-
-Note: This algorithm uses the Runge-Kutta method as the base method.
-
-##### Extrapolation
-
-Inputs:
-  
-- Function (string): Function with independent variables x and y. See [Supported Constants and Functions](#Supported-Constants-and-Functions).
-
-- a (float): The x-value where the initial condition is specified.
-
-- b (float): The x-value where the solution of the ODE is approximated.
-
-- h<sub>min</sub> (float): Minimum step size.
-
-- h<sub>max</sub> (float): Maximum step size. The smaller the maximum step size, the more accurate the approximation will be.
-
-- y(a) (float): Value of function where the initial condition is specified.
-
-- Tolerance (float): Acceptable error for approximation at each step.
-
-Output:
-
-- Approximate solution of the ODE at x = b derived via extrapolation, or message that the minimum step size is too large.
-
-Note: This algorithm uses the two-point midpoint method as the base method. Euler's method is used as the base method for the two-point midpoint method
 
 Note: To view this information in the app click the "Help" button in the lower left.
 
