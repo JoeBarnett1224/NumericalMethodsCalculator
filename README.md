@@ -733,7 +733,7 @@ When I began writing the code to evaluate mathematical expressions I did so with
 
 The current version of this project displays the numerical solution, but has no way to visualize this solution. In future versions I will add plots as part of the outputs for the various numerical techniques that have been implemented.
 
-This project implements various commonly used numerical methods, but there is much more that can be added including techniques of numerical linear algebra, numerical optimization and numerical partial differential equation. I eventually want to implement methods from all these areas of numerical analysis.
+This project implements various commonly used numerical methods, but there is much more that can be added including techniques of numerical linear algebra, numerical optimization and numerical partial differential equations. I eventually want to implement methods from all these areas of numerical analysis.
 
 Some of the algorithms can take a very long time to run depending on the inputs, as a result this can cause the program to crash. To mitigate this, I will add a settings menu in a future update that will include the option to set the maximum number of iterations before the algorithm terminates. Another option I would like to add to this settings menu is an option to set the precision of the calculations and outputs.
 
